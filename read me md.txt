@@ -1,0 +1,61 @@
+# 📧 Phishing Email Detection System
+
+A Machine Learning based project that detects whether an email is Safe or Phishing using NLP techniques and Scikit-learn.
+
+This project uses TF-IDF Vectorization and Logistic Regression to classify email messages with high accuracy. The system also includes an interactive and animated user interface built using HTML, CSS, and IPyWidgets inside Jupyter Notebook.
+
+The model analyzes email content and predicts:
+- ✅ Safe Email
+- ⚠️ Phishing Email
+
+The project includes:
+- Real-time Email Detection
+- Interactive UI
+- Confusion Matrix Visualization
+- Accuracy Analysis
+- Machine Learning Prediction System
+
+Technologies Used:
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- Matplotlib
+- Seaborn
+- IPyWidgets
+- HTML
+- CSS
+
+Machine Learning Workflow:
+1. Data Collection
+2. Data Preprocessing
+3. TF-IDF Vectorization
+4. Train-Test Split
+5. Model Training
+6. Prediction
+7. Evaluation
+
+Model Used:
+- Logistic Regression
+
+Features:
+- Interactive Email Detector
+- Animated Cyber Security UI
+- Real-time Prediction
+- High Accuracy Model
+- Confusion Matrix
+- Stylish Output Panels
+
+Example Prediction:
+
+Input:
+"Click here to win free money"
+
+Output:
+⚠️ PHISHING EMAIL DETECTED
+
+Input:
+"Meeting scheduled tomorrow"
+
+Output:
+✅ SAFE EMAIL DETECTED
